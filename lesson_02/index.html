@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru" itemscope itemtype="https://schema.org/WebPage">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        section {
+            scroll-margin-top: 80px;
+        }
+    </style>
+</head>
+<body itemscope itemtype="https://schema.org/WebPage">
+    
+    <!-- Разметка для организации -->
+    <header itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+        <meta itemprop="name" content="Shtormwind Company">
+        <meta itemprop="description" content="Команда фронтенд-разработчиков, дикторов и мастеров НРИ">
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Наши работы</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Главная секция с разметкой CreativeWork -->
+        <section class="home" id="home" itemprop="mainEntity" itemscope itemtype="https://schema.org/CreativeWork">
+            <h1 itemprop="headline">Shtormwind Company: Запоминающиеся сайты и не только. Почти за шавуху.</h1>
+            <article itemprop="description">
+                <h2>Команда фронтенд-разработчиков, дикторов и мастеров НРИ. Соединяем технологии и творчество.</h2>
+                <p>Мы не просто создаем сайты. Мы создаем цифровые впечатления, которые ваши клиенты не забудут. Яркие, быстрые и работающие именно так, как вы задумали.
+                А еще — мы оживим ваш контент профессиональной озвучкой и проведем для вашей команды незабываемую настольную ролевую игру.</p>
+            </article>
+            <h2>Почему мы?</h2>
+            <article>
+                <ul>
+                    <li><strong>Универсальность</strong>: Один подрядчик для трех разных, но таких важных творческих задач.</li>
+                    <li><strong>Фокус на результате</strong>: Нам важно не просто «сделать», а чтобы это работало и приносило вам пользу.</li>
+                    <li><strong>Честные цены</strong>: Вы получаете премиум-качество без накруток за «имя». Мы ценим ваше доверие (и шавуху).</li>
+                </ul>
+                <p><i>Готовы создать что-то уникальное? Давайте обсудим ваш проект!</i></p>
+            </article>
+        </section>
+
+        <!-- Секция работ с разметкой ItemList -->
+        <section class="about" id="about" itemscope itemtype="https://schema.org/ItemList">
+            <h1 itemprop="name">Наши работы</h1>
+            <article>
+                <ul>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="https://disk.yandex.ru/i/L5Gx1t3lVeA3KA" itemprop="url">Озвучка</a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                        <a href="https://www.youtube.com/watch?v=SfzgkXovp-8" itemprop="url">НРИ</a>
+                    </li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Секция отзывов с разметкой Review -->
+        <section class="reviews" id="reviews">
+            <h1>Отзывы</h1>
+            <article itemscope itemtype="https://schema.org/Review">
+                <h3 itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Михаил, основатель сервиса "Умный ЗооСторм"</span>
+                </h3>
+                <img src="Мужик.png" alt="Фото Михаила" width="200" height="300">
+                <p itemprop="reviewBody">Я думал, мне нужны волшебники, чтобы сделать по-настоящему цепляющий сайт. Оказалось, нужны ребята из Shtormwind и одна большая шаурма.
+                    Их подход — это что-то! Перед тем как писать код, они заставили нас пройти квест по мотивам нашего же продукта. Я играл за злого хомяка-хакера! В итоге они создали сайт, который не просто продает, а затягивает с первой же страницы, как сериал Netflix.</p>
+            </article>
+
+            <article itemscope itemtype="https://schema.org/Review">
+                <h3 itemprop="author" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name">Анастасия, продюсер онлайн-курса "История Искусств VR"</span>
+                </h3>
+                <img src="Женщина.png" alt="Фото Анастасии" width="200" height="300">
+                <p itemprop="reviewBody">Я ждала подвоха. Не может одна команда делать и сложные сайты, и иметь студию с божественным звуком. Ребята, у вас там портал в другую вселенную в подсобке?
+                    Они сделали нам сайт, красивый до слез. А потом тот парень, что вчера кодил анимацию, надел наушники и таким бархатным баритоном начал вещать про Караваджо, что наш продюсер расплакалась от счастья.
+                    Вы либо гении, либо у вас действительно клоны. В любом случае, мы ваши поклонники.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Футер с контактной информацией -->
+    <footer>
+        <section class="contacts" id="contacts" itemscope itemtype="https://schema.org/ContactPoint">
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">Наши работы</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+            </ul>
+            
+            <p>Давайте знакомиться! <br>Наши контакты:</p>
+            <ul style="list-style: none">
+                <li itemprop="contactType" content="customer service">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/2048px-Telegram_2019_Logo.svg.png" alt="Telegram" width="15" height="15">
+                    <a href="https://t.me/Ales2057" style="text-decoration: none;" itemprop="url">Telegram</a>
+                </li>
+                <li itemprop="email">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSkurOAfwsoUaa2fN9eIckaMJkhAhgQmOgHw&s" alt="Email" width="15" height="15">
+                    <span itemprop="email">capuchino31@mail.ru</span>
+                </li>
+            </ul>
+            
+            <p>Напишите нам свой номер телефона и мы с вами свяжемся.</p>
+            <input type="text" placeholder="+7(XXX)XXX-XX-XX" itemprop="telephone">
+        </section>
+        
+        <p itemprop="copyrightYear">Shtormwind Company 2025-3026©</p>
+    </footer>
+
+    <!-- JSON-LD разметка для поисковых систем -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Shtormwind Company",
+        "description": "Команда фронтенд-разработчиков, дикторов и мастеров НРИ. Создаем запоминающиеся сайты и цифровые впечатления.",
+        "url": "https://yourwebsite.com",
+        "logo": "https://yourwebsite.com/logo.png",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+7-XXX-XXX-XX-XX",
+            "contactType": "customer service",
+            "email": "capuchino31@mail.ru",
+            "availableLanguage": ["Russian", "English"]
+        },
+        "sameAs": [
+            "https://t.me/Ales2057"
+        ],
+        "areaServed": "RU",
+        "knowsAbout": [
+            "Frontend Development",
+            "Voice Acting",
+            "Tabletop RPG",
+            "Web Design"
+        ]
+    }
+    </script>
+
+</body>
+</html>

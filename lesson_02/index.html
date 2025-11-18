@@ -38,8 +38,8 @@
                 <p>Мы не просто создаем сайты. Мы создаем цифровые впечатления, которые ваши клиенты не забудут. Яркие, быстрые и работающие именно так, как вы задумали.
                 А еще — мы оживим ваш контент профессиональной озвучкой и проведем для вашей команды незабываемую настольную ролевую игру.</p>
             </article>
-            <h2>Почему мы?</h2>
             <article>
+                <h2>Почему мы?</h2>
                 <ul>
                     <li><strong>Универсальность</strong>: Один подрядчик для трех разных, но таких важных творческих задач.</li>
                     <li><strong>Фокус на результате</strong>: Нам важно не просто «сделать», а чтобы это работало и приносило вам пользу.</li>
@@ -50,9 +50,9 @@
         </section>
 
         <!-- Секция работ с разметкой ItemList -->
-        <section class="about" id="about" itemscope itemtype="https://schema.org/ItemList">
-            <h1 itemprop="name">Наши работы</h1>
+        <div class="about" id="about" itemscope itemtype="https://schema.org/ItemList">
             <article>
+                <h2 itemprop="name">Наши работы</h2>
                 <ul>
                     <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                         <a href="https://disk.yandex.ru/i/L5Gx1t3lVeA3KA" itemprop="url">Озвучка</a>
@@ -62,7 +62,7 @@
                     </li>
                 </ul>
             </article>
-        </section>
+        </div>
 
         <!-- Секция отзывов с разметкой Review -->
         <section class="reviews" id="reviews">
@@ -90,7 +90,7 @@
 
     <!-- Футер с контактной информацией -->
     <footer>
-        <section class="contacts" id="contacts" itemscope itemtype="https://schema.org/ContactPoint">
+        <div class="contacts" id="contacts" itemscope itemtype="https://schema.org/ContactPoint">
             <ul>
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#about">Наши работы</a></li>
@@ -111,7 +111,8 @@
             
             <p>Напишите нам свой номер телефона и мы с вами свяжемся.</p>
             <input type="text" placeholder="+7(XXX)XXX-XX-XX" itemprop="telephone">
-        </section>
+            <button>Отправить</button>
+        </div>
         
         <p itemprop="copyrightYear">Shtormwind Company 2025-3026©</p>
     </footer>
